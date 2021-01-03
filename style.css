@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+}
+#itemsCount{
+    visibility: hidden;
+}
+.shopping-cart{
+    width: 1000px;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: center ;
+    
+    
+  }
+header{
+    Background: url('https://images.pexels.com/photos/1293120/pexels-photo-1293120.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-attachment: fixed;
+    height: 100px;
+    width:1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+body{
+    background-color:#000000;
+}
+.add,.minus{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.item{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+}
+.a{
+    color: #002fff;
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.item-description{
+    display: flex;
+    align-items: center;
+    border: 2.5px  #ff5100;
+    border-style: outset;
+}
+
+.item-description img{
+    width: 50%;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.item-qte,.item-unit-price, .item-total-price, .all-items-total-price, .like-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px  #ff5100;
+    border-style: outset;
+}
+
+.qte{
+    border: 2.5px #ff5100;
+    border-style: outset;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.grid-overwrite{
+    grid-template-columns: 1fr;
+}
+
+.deleteLink{
+   text-decoration: underline overline #ff5100;
+}
+
+.titre {
+
+    color: #000000b9;
+    font-size: 60px;
+    padding: 20px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+
+    
+
+}
